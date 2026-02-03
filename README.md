@@ -1,4 +1,4 @@
-# hosting-my-personal-website-on-AWS-CloudFront
+# Hosting a static website on S3, CloudFront
 
 # Why this project?
 This was a project to develop AWS cloud skills. I'm taking a cloud architecture class to prepare for the AWS SAA exam in December. One of the side projects to increase our class expertise was to create a personal website and host it using AWS CloudFront. This was my first hands on experience with doing an AWS project. 
