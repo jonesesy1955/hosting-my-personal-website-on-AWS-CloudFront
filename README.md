@@ -1,4 +1,4 @@
-# Hosting a static website on S3, CloudFront
+# Migrating and deploying a static website on S3, CloudFront
 
 # Why this project?
 This was a project to develop AWS cloud skills. I'm taking a cloud architecture class to prepare for the AWS SAA exam in December. One of the side projects to increase our class expertise was to create a personal website and host it using AWS CloudFront. This was my first hands on experience with doing an AWS project. 
@@ -9,11 +9,16 @@ https://www.youtube.com/watch?v=lB4DTqMEumY&list=PL6qdJ78d0B78gb4rrRQ-XJR2BhbgTr
 
 - This was the main video I used. It took my through almost the entire process before I ran into any issues.
 
-
 Here are a few others I watched: 
 https://youtu.be/mirW9pBann8?si=smi93Cl1SoOnXOxu
 
 https://youtu.be/X9cdkqBgLbs?si=2aBhJteiiAmQkect
+
+# Steps 
+1. Download the resources in the BootStrap Template for my static pages.
+2. In the AWS Console, create a S3 bucket with a unique name.
+3. Select the bucket name. Click _Upload_, _add files_, and select the files downloaded from the Bootstrap Template to upload.
+4. Under the Permissions tab, clear the check mark on _Block all public access_ to allow the internet to access the website. Created a bucket policy. 
 
 # Challenges 
 The main video showed me how to use a CloudFront created domain name. However, I had purchased a domain name and wanted to use that domain instead. I ran into issues configuring the bucket policies correctly
