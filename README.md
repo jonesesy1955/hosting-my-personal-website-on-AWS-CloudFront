@@ -16,9 +16,11 @@ https://youtu.be/X9cdkqBgLbs?si=2aBhJteiiAmQkect
 
 # Steps 
 1. Download the resources in the BootStrap Template for my static pages.
-2. In the AWS Console, create a S3 bucket with a unique name.
+2. In the AWS Console, go to S3 and create a S3 bucket with a unique name.
 3. Select the bucket name. Click _Upload_, _add files_, and select the files downloaded from the Bootstrap Template to upload.
-4. Under the Permissions tab, clear the check mark on _Block all public access_ to allow the internet to access the website. Created a bucket policy. 
+4. Under the Permissions tab, clear the check mark on _Block all public access_ to allow the internet to access the website. Created a bucket policy.
+5. Under Properties, enable _S3 static web hosting_ to check the website is deployed. 
+6. In the AWS Console, go to Route 53 > Hosted zones > Create hosted zone
 
 # Challenges 
 The main video showed me how to use a CloudFront created domain name. However, I had purchased a domain name and wanted to use that domain instead. I ran into issues configuring the bucket policies correctly
