@@ -35,5 +35,10 @@ Certificate Manager
 14. Verified the CloudFront domain name can be accessed
 15. In the AWS Console, go to Route 53 > Hosted zones > Create record > A type > Record name, paste the CloudFront domain name. Create record
 
+# Securing my website
+I watched this YouTube on how to add HTTP security headers to CloudFront:  https://www.youtube.com/watch?v=x_QbJaSKSgU  
+Used ssllabs to verify behavior changes were in effect. 
+Followed the steps, tested and passed SSL server test 
+
 # Challenges 
 The main video showed me how to use a CloudFront created domain name. However, I had purchased a domain name and wanted to use that domain instead. I ran into issues configuring the bucket policies correctly. 
