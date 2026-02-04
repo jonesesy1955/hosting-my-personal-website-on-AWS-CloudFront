@@ -1,7 +1,7 @@
 # Migrating and deploying a static website on S3, CloudFront
 
 # Why this project?
-This was a project to develop AWS cloud skills. I'm taking a cloud architecture class to prepare for the AWS SAA exam in December. One of the side projects to increase our class expertise was to create a personal website and host it using AWS CloudFront. This was my first hands on experience with doing an AWS project. 
+This was a project to develop AWS cloud skills. This was my first hands on experience with doing an AWS project. 
 
 # Resources
 I watched several YouTube tutorials since this is widely recommended project for people interested in learning more about AWS.
