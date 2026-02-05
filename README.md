@@ -26,13 +26,13 @@ Certificate Manager
 5. Under Properties, enable _S3 static web hosting_ to check the website is deployed. 
 6. In the AWS Console, go to Route 53 > Hosted zones > Create hosted zone
 7. Entered my domain 
-8. Copied the custom nameservers from Squarespace where the domain is hosted and replaced the default nameservers (NS) records in AWS
+8. Copied the custom nameservers from Squarespace where the domain is hosted and replaced the default nameservers (NS) records in AWS.
 9. In the AWS Console, go to Certificate Manager > Request certficiate > Request a public certificate. 
 10. Entered my domain, then selected _Create a record in Route 53_. Verified the record was created in Route 53. 
 11. In the AWS Console, go to CloudFront > Create distribution
 12. For the origin, copied the URL from my bucket under Permissions > Static website hosting.
 13. Configured the distribution as following: selected _Redirect from HTTP to HTTPS_, insert the domain name under _Alternate Domain Names (CNAMEs)_, selected _Custom SSL certificate_
-14. Verified the CloudFront domain name can be accessed
+14. Verified the CloudFront domain name can be accessed.
 15. In the AWS Console, go to Route 53 > Hosted zones > Create record > A type > Record name, paste the CloudFront domain name. Create record
 
 # Securing my website
@@ -40,7 +40,7 @@ I watched this YouTube on how to add HTTP security headers to CloudFront:
 https://www.youtube.com/watch?v=x_QbJaSKSgU  
 
 Used ssllabs to verify behavior changes were in effect. 
-Followed the steps, tested and passed SSL server test 
+Followed the steps, tested and passed SSL server test. 
 
 # Challenges 
 The main video showed me how to use a CloudFront created domain name. However, I had purchased a domain name and wanted to use that domain instead. I ran into issues configuring the bucket policies correctly. 
